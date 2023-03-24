@@ -1,0 +1,11 @@
+<p>DIRECTIVA NGIF</p>
+
+<div *ngIf="usuario">
+  Bienvenido {{usuario}}
+</div>
+
+<div *ngIf="!usuario">
+  Por favor Ingrese
+
+  <button (click) = "usuario = 'Alexander'">Ingresar</button>
+</div>
